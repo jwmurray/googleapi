@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jmurray/CLionProjects/googleapi/hello.cpp
+hello.h
+/Users/jmurray/CLionProjects/googleapi/hello.h
+
+/Users/jmurray/CLionProjects/googleapi/hello.h
+iostream
+-
+
+/Users/jmurray/CLionProjects/googleapi/main.cpp
+hello.h
+/Users/jmurray/CLionProjects/googleapi/hello.h
+
